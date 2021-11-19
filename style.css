@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+}
+.wraper__time{
+width: 500px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+background-color: bisque;
+transform:translate(0,-110%);
+position: absolute;
+transition: ease-in-out 1s;
+border-radius: 5px;
+}
+.wraper__time input{
+    margin: 20px;
+}
+.wraper__time label{
+    text-align: center;
+}
+.enter{
+    width: 500px;  
+    background-color: bisque;
+    text-align: center;
+    opacity: 1;
+    transition: ease 0.5s;
+}
+.hiden{
+    opacity: 0;
+}
+#calendar{
+    width: 40%;
+    
+}
+td{
+    width: 14%;
+    text-align: center;
+    border: 5px solid #CCCCCC;
+}
